@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+
+    <ImageButton
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:scaleType="centerInside"
+        android:id="@+id/second_fragment_item_imageBotton"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:background="@color/white"
+        android:src="@drawable/mypage_list_icon_location"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="我的送餐地址"
+        android:textColor="@color/black"
+        android:id="@+id/second_fragment_item_textView"
+        android:layout_alignParentTop="true"
+        android:layout_alignBottom="@+id/second_fragment_item_imageBotton"
+        android:gravity="center"
+        android:layout_toRightOf="@+id/second_fragment_item_imageBotton"
+        android:layout_alignTop="@+id/second_fragment_item_imageBotton"/>
+</RelativeLayout>
